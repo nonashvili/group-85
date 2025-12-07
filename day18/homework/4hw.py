@@ -10,10 +10,11 @@
 
 temperature=int(input("enter temperature:"))
 
-if temperature>30:
-    print("ცხელა")
-elif temperature<30 and temperature>0:
-    print("ნორმალურია")
+if temperature>0:
+    if temperature>30:
+        print("Cxela")
+    else:
+        print("normaluria")
 else:
-    print("ყინვაა")
+    print("yivaa")
 

@@ -10,7 +10,7 @@
 
 
 
-age=-12
+age=4
 if age % 2==0:
     print("დადებითი ლუწი")
 elif age<0:
