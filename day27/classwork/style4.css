@@ -1,0 +1,10 @@
+h1{
+    color: blue;
+    font-size: 50px;
+}
+button{
+    font-size: 45px;
+    background-color: yellow;
+    color: red;
+    border: 3px solid green;
+}

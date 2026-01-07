@@ -16,5 +16,5 @@ while True:
     else:
         negative_numbers.append(num)
 
-print("დადებითი რიცხვები:", positive_numbers)
-print("უარყოფითი რიცხვები:", negative_numbers)
+print(positive_numbers)
+print(negative_numbers)

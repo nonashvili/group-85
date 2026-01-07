@@ -1,0 +1,15 @@
+button{
+    color: black;
+    background-color: red;
+    border: 5px solid green;
+}
+p{
+    color: aquamarine;
+    background-color: chartreuse;
+    border: 4px greenyellow;
+}
+h4{
+    color: darkmagenta;
+    background-color: pink;
+    border: 6px purple;
+}

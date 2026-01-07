@@ -1,0 +1,17 @@
+h1 {
+   color: red;
+   background-color: black;
+   font-size: 40px;
+   font-size: 2px solid red;
+}
+p{
+   color: aqua;
+   background-color: bisque;
+   font-size: 30px;
+   font-size: 2px solid grey;
+}
+button{
+   color: purple;
+   width: 150px;
+   height: 40px;
+}
