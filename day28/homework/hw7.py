@@ -1,4 +1,4 @@
-number = int(input("შეიყვანე რიცხვი 1–5: "))
+number = int(input("შეიყვანე რიცხვი 1-5: "))
 
 if number == 1:
     print("One")
@@ -11,4 +11,4 @@ elif number == 4:
 elif number == 5:
     print("Five")
 else:
-    print("ცდომილია! რიცხვი უნდა იყოს 1–5 შორის.")
+    print("მცდარია! რიცხვი უნდა იყოს 1-5 შორის.")
