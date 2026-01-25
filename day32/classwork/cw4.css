@@ -1,0 +1,20 @@
+.second-class2{
+    border: 2px solid cornflowerblue;
+}
+
+
+.first-class{
+    color: red;
+    font-size: 20px;
+    background-color: purple;
+}
+.second-class{
+    color: blue;
+    font-size: 50px;
+    background-color: yellow;
+}
+.third-class{
+    color: rgb(182, 30, 202);
+    font-size: 30px;
+    background-color: green;
+}

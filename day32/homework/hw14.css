@@ -1,0 +1,28 @@
+.same {
+    color: purple;
+    font-size: 18px;
+}
+
+.item6 {
+    color: red;
+    background-color: blue;
+}
+
+.item7 {
+    color: blue;
+    background-color: lightgray;
+}
+
+.item8 {
+    color: green;
+    font-size: 20px;
+}
+.item9 {
+    color: orange;
+    text-decoration: underline;
+}
+
+.item10 {
+    color: black;
+    background-color: yellow;
+}

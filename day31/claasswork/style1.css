@@ -1,0 +1,6 @@
+p u{
+    color: aquamarine;
+}
+div p u{
+    color: bisque;
+}
