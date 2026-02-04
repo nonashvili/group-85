@@ -8,5 +8,4 @@ def count_increases():
 
     print(count)
 
-# ფუნქციის გამოძახება
 count_increases()

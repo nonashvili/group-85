@@ -1,4 +1,4 @@
-def sum_of_even_numbers():
+def even_numbers():
     numbers = [4, 7, 10, 3, 6, 9, 2]
 
     total = 0
@@ -8,4 +8,4 @@ def sum_of_even_numbers():
 
     print("ლუწი ელემენტების ჯამი არის:", total)
 
-sum_of_even_numbers()
+    even_numbers()
