@@ -1,4 +1,4 @@
-def luwh_ricxvebi(numbers):
+def luwi_ricxvebi(numbers):
     result = []
 
     for ricxvi in numbers:
@@ -7,4 +7,4 @@ def luwh_ricxvebi(numbers):
 
     return result
 
-print(luwh_ricxvebi([3, 7, 1, 9, 4, 8, 2]))
+print(luwi_ricxvebi([3, 7, 1, 9, 4, 8, 2]))

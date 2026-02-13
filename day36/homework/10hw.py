@@ -3,5 +3,4 @@ def print_hello_world(times):
         print("Hello, World")
 
 
-# მაგალითი
 print_hello_world(5)
