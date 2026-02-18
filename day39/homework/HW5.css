@@ -1,0 +1,33 @@
+#d {
+
+    text-transform: capitalize;
+     text-shadow:0px 3px 3px black;
+
+}
+#dd {
+
+    text-transform: capitalize;
+    text-shadow:1px -2px 1px gray;
+     color: gray;
+
+}
+#ddd {
+
+    text-transform: uppercase;
+    color: pink;
+     text-shadow:1px 1px 0px blue;
+
+}
+#dddd {
+
+     text-transform: capitalize;
+     color: white;
+    text-shadow:0px 1px 4px lightgreen;
+
+}
+#ddddd {
+
+    text-transform: capitalize;
+    text-shadow:0px 1px 2px green;
+
+}

@@ -1,0 +1,9 @@
+#text1{
+    text-decoration: rgb(164, 21, 177) underline double;
+}
+#text2{
+    text-decoration: rgb(101, 255, 101) line-through dashed;
+}
+#text3{
+    text-decoration: blue overline dotted;
+}
