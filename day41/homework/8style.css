@@ -1,0 +1,7 @@
+.class:hover{
+    background-color: chartreuse;
+    
+}
+.class:active{
+    border: 4px solid blueviolet;
+}
