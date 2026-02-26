@@ -1,0 +1,13 @@
+table{
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+.sub1{
+    background-color: rgb(92, 168, 92);
+}
+.sub3{
+    background-color: rgb(4, 187, 187);
+}
+.sub5{
+    background-color: aqua;
+}
