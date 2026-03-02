@@ -1,0 +1,28 @@
+ table {
+    width: 500px;
+    border-collapse: collapse;
+    margin: 50px auto;
+    font-family: Arial;
+        }
+
+th {
+    background-color: rgb(72, 146, 88);
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(226, 223, 223);
+}
+
+tr:nth-child(3) {
+    color: teal;
+    font-weight: bold;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+    

@@ -1,0 +1,9 @@
+li:nth-child(3) {
+    color: red;
+}
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+p:nth-child(2n) {
+    font-weight: bold;
+}

@@ -1,0 +1,10 @@
+form {
+     border: 3px solid green;
+     padding: 20px;
+     width: 800px;  
+     height: 700px;  
+     margin: auto;
+     background-color: red;
+     text-align: center;
+} 
+
