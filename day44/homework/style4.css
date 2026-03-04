@@ -1,0 +1,21 @@
+body {
+    background-color: #3d8dbc;
+    font-family: Arial;
+    padding: 50px;
+}
+
+h2 {
+    color: white;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    border: none;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    background: white;
+}
