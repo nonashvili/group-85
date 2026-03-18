@@ -1,0 +1,15 @@
+.container {
+  width: 500px;
+  height: 200px;
+  border: 2px solid black;
+
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  background-color: teal;
+  margin: 5px;
+}
