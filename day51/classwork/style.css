@@ -1,0 +1,10 @@
+body{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}

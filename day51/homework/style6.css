@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: #222;
+    color: white;
+}
+
+  .logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.menu a:hover {
+    color: #00d4ff;
+}
+
+.btn button {
+    padding: 8px 16px;
+    border: none;
+    background: #00d4ff;
+    color: black;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.btn button:hover {
+    background: #00aacc;
+}
