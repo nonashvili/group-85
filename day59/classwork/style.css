@@ -1,0 +1,27 @@
+.parent{
+    width: 800px;
+    height: 700px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+}
+.child{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#two{
+    border: 2px solid yellow;
+    position: relative;
+    top: 50px;
+    left: 70px;
+
+}
