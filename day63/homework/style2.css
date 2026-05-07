@@ -1,0 +1,6 @@
+.box {
+    width: 400px;
+    height: 250px;
+    border: 2px solid #000;
+    background: url("300x300-061-e1340955308953.jpg") no-repeat left top / 100px 100px;
+}

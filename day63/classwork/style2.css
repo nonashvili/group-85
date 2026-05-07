@@ -1,0 +1,6 @@
+.parent{
+width: 400px; 
+height: 300px;
+border: 2px solid black; 
+background: url("images\ \(1\).jpg") no-repeat center / cover;
+}

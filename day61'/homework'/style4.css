@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(58, 146, 187);
+    height: 5000px;
+}
+
+.pkp{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+    left: 200px;
+}

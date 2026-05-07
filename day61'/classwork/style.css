@@ -1,0 +1,22 @@
+body{
+    height: 500vh;
+}
+header{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    position: fixed;
+    width: 95%;
+    top: 100px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 15px;
+    font-size: 30px;
+}
+

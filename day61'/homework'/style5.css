@@ -1,0 +1,49 @@
+body {
+    background: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.box {
+    width: 120px;
+    height: 120px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-family: sans-serif;
+}
+
+/* Pink */
+.first {
+    background: hotpink;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/* Blue */
+.second {
+    background: #2f8fa8;
+    top: 40px;
+    left: 80px;
+    z-index: 2;
+    opacity: 0.9;
+}
+
+/* Green */
+.third {
+    background: green;
+    top: 120px;
+    left: 40px;
+    z-index: 0;
+}

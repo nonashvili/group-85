@@ -1,0 +1,16 @@
+body
+    { height: 2000px; } 
+.wrapper-top   
+    { position: sticky; 
+    top: 40px; 
+} 
+.wrapper-bottom 
+    { position: sticky; 
+    bottom: 65px; 
+    } 
+
+.box { width: 120px; 
+    height: 120px; 
+    background: teal; 
+    margin: 100px auto; 
+}

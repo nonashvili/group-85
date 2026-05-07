@@ -1,0 +1,7 @@
+.section {
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+
+    background: url("300x300-061-e1340955308953.jpg") repeat-x right bottom / 150px 150px;
+}

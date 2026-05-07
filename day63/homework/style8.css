@@ -1,0 +1,28 @@
+body{
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #111;
+    }
+
+    .parent{
+      width: 700px;
+      height: 450px;
+      background: url("300x300-061-e1340955308953.jpg") center / cover no-repeat;
+      border-radius: 20px;
+      position: relative;
+      box-shadow: 0 0 20px black;
+    }
+
+    .child{
+      width: 250px;
+      height: 250px;
+      background: url("300x300-061-e1340955308953.jpg") center / cover no-repeat;
+      border: 5px solid white;
+      border-radius: 20px;
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      box-shadow: 0 0 15px black;
+    }

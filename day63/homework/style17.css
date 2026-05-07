@@ -1,0 +1,13 @@
+.box {
+  width: 150px;
+  height: 150px;
+  background: seagreen;
+  margin: 100px;
+  transition: 0.4s ease;
+
+  transform-origin: bottom right;
+}
+
+.box:hover {
+  transform: scale(0.7) translateX(-40px) rotate(-10deg);
+}

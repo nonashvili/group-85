@@ -1,0 +1,10 @@
+div{
+    width:100px;
+    height:100px;
+    background:blue;
+    transition:1s;
+}
+
+div:hover{
+    transform:scale(0.7) translateX(-30px) rotate(-10deg);
+}

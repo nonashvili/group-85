@@ -1,0 +1,11 @@
+.box {
+  width: 150px;
+  height: 150px;
+  background: steelblue;
+  margin: 100px;
+  transition: 0.5s ease;
+}
+
+.box:hover {
+  transform: scale(1.2) rotate(360deg) translate(50px, 50px);
+}

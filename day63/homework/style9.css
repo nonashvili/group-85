@@ -1,0 +1,7 @@
+.box { 
+    width: 120px; 
+    height: 120px; 
+    background-color: royalblue; 
+    transition: 0.5s; 
+}  
+.box:hover { transform: scale(2)  rotate(30deg)  translateX(30px);  }

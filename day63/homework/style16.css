@@ -1,0 +1,14 @@
+.box {
+  width: 150px;
+  height: 150px;
+  background: tomato;
+  margin: 100px;
+  transition: 0.4s ease;
+
+  /* ბრუნვის ცენტრი ზედა მარცხენა კუთხე */
+  transform-origin: top left;
+}
+
+.box:hover {
+  transform: scale(2) rotate(20deg) translateX(50px);
+}
