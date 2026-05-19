@@ -1,0 +1,10 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: all 2s;
+}
+.box:hover{
+    transform: translateY(50px);
+    background-color: blue;
+}

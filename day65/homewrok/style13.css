@@ -1,0 +1,10 @@
+button{
+    padding:15px 30px;
+    font-size:20px;
+
+    transition:all 4s;
+    transition-delay:2s;
+}
+button:active{
+    transform:scale(0.9) rotate(45deg);
+}

@@ -1,18 +1,18 @@
 img{
-      width: 300px;
-      display: block;
-      margin: 100px auto;
+  width: 300px;
+  display: block;
+  margin: 100px auto;
 
-      transition:
-        opacity 0.5s,
-        transform 1.2s;
+  transition:
+  opacity 0.5s,
+  transform 1.2s;
 
-      transition-delay:
-        0s,
-        0.4s;
-    }
+  transition-delay:
+  0s,
+  0.4s;
+}
 
-    img:hover{
-      opacity: 0.5;
-      transform: scale(1.2) rotate(25deg);
-    }
+  img:hover{
+  opacity: 0.5;
+  transform: scale(1.2) rotate(25deg);
+}
