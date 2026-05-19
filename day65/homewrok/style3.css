@@ -1,0 +1,15 @@
+.card{
+    width: 300px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 100px auto;
+    border-radius: 15px;
+    transition:
+    transform 0.5s,
+    box-shadow 0.8s;
+}
+
+.card:hover{
+    transform: translateY(-20px) scale(1.1);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}

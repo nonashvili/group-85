@@ -1,0 +1,19 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 100px auto;
+    transition:
+    background-color 0.3s,
+    transform 1s,
+    width 0.6s,
+    height 0.6s;
+    transition-delay: 3s;
+}
+
+.box:hover{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    transform: rotate(45deg);
+}

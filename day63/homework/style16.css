@@ -4,8 +4,6 @@
   background: tomato;
   margin: 100px;
   transition: 0.4s ease;
-
-  /* ბრუნვის ცენტრი ზედა მარცხენა კუთხე */
   transform-origin: top left;
 }
 

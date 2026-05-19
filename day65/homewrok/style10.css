@@ -1,0 +1,12 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: dodgerblue;
+    margin: 100px auto;
+
+    transition: transform 0.4s;
+}
+
+.box:hover{
+    transform: scale(1.2);
+}
