@@ -1,0 +1,25 @@
+.parent {
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+
+    display: grid;
+    grid-template-rows: 200px 400px;
+    grid-template-columns: 100px 500px;
+}
+
+.box1 {
+    background-color: red;
+}
+
+.box2 {
+    background-color: blue;
+}
+
+.box3 {
+    background-color: green;
+}
+
+.box4 {
+    background-color: orange;
+}

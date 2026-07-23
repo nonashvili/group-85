@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "DM Sans", sans-serif;
+    background-color: hsl(0, 0%, 96%);
+    padding: 40px 0;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 280px 280px 280px 280px;
+    grid-template-rows: repeat(10, 75px);
+    gap: 30px;
+}
+
+.box {
+    border-radius: 10px;
+}
+
+.box1 {
+    background-color: hsl(30, 71%, 93%);
+    grid-area: 1 / 1 / 6 / 2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texts1 {
+    width: 240px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.quicker {
+    font-size: 40px;
+    font-weight: 550;
+    line-height: 1;
+}
+
+.texts1 span {
+    color: hsl(256, 67%, 59%);
+    font-style: italic;
+    font-weight: 500;
+}
+
+.post {
+    width: 250px;
+}
+
+.box2 {
+    background-color: hsl(256, 67%, 59%);
+    grid-area: 1 / 2 / 5 / 4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texts2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+    text-align: center;
+}
+
+.ai {
+    color: hsl(0, 0%, 100%);
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.x {
+    color: hsl(39, 100%, 71%);
+}
+
+.line2 {
+    display: block;
+}
+
+.faster {
+    font-style: italic;
+}
+
+.box2 img {
+    width: 270px;
+}
+
+.stars-text {
+    color: hsl(0, 0%, 100%);
+    opacity: 0.8;
+    font-size: 20px;
+}
+
+.box3 {
+    background-color: hsl(255, 88%, 90%);
+    grid-area: 1 / 4 / 8 / 5;
+
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+}
+
+.texts3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    padding-top: 40px;
+}
+
+.media {
+    font-size: 30px;
+    width: 350px;
+    line-height: 1.1;
+    padding-left:55px
+}
+
+.texts3 img {
+    width: 380px;
+    height: auto;
+}
+
+.optimize {
+    line-height: 1;
+    color: black;
+    font-size: 20px;
+    width:300px;
+    padding-left:55px;
+}
+
+.box4 {
+    background-color: hsl(39, 100%, 71%);
+    grid-area: 6 / 1 / 11 / 2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texts4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.texts4 h2 {
+    font-size: 45px;
+    font-weight: 500;
+    width: 260px;
+    line-height: 0.9;
+}
+
+.texts4 img {
+    width: 310px;
+}
+
+.box7 {
+    background-color: white;
+    grid-area: 5 / 2 / 8 / 3;
+
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texts7 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px;
+}
+
+
+.texts7 img {
+    width: 300px;
+    height: auto;
+}
+
+.manage-text {
+    font-size: 32px;
+    font-weight: 550;
+    line-height: 1;
+    color: black;
+    padding-left:15px;
+}
+
+.box8 {
+    background-color: hsl(39, 100%, 71%);
+    grid-area: 5 / 3 / 8 / 4;
+
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+}
+
+.texts8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100%;
+    padding: 25px;
+}
+
+.consistent-text {
+    font-size: 32px;
+    font-weight: 550;
+    line-height: 1;
+    color: black;
+    letter-spacing: -1px;
+    width: 230px;
+}
+
+.schedule-img {
+    width: 250px;
+    height: auto;
+}
+
+.box5 {
+    background-color: hsl(0, 0%, 100%);
+    grid-area: 8 / 2 / 11 / 3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texts5 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding: 30px;
+}
+
+.texts5 h2 {
+    color: black;
+    font-size: 70px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+.texts5 p {
+    font-size: 20px;
+}
+
+.texts5 img {
+    width: 280px;
+}
+
+.box6 {
+    background-color: hsl(256, 67%, 59%);
+    grid-area: 8 / 3 / 11 / 5;
+
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texts6 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    padding: 24px;
+    gap: 20px;
+}
+
+.grow-text {
+    font-size: 38px;
+    width: 260px;
+    color: white;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.grow-img {
+    width: 230px;
+}
