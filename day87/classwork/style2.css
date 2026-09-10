@@ -1,0 +1,16 @@
+:root{
+    --color:green:
+    --font:60px:
+    --border-radius:10px;
+    --background-color:red ;
+    --font-weight: 50px;
+}
+h1{
+    color:var(--color);
+    font-size: var(--font);
+    border-radius: var(--background-color);
+    background-color: var(--background-color);
+    font-weight: var(--font-weight);
+
+
+}

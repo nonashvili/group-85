@@ -1,0 +1,27 @@
+:root{
+    --color:red:
+    --font:60px:
+}
+h1{
+    color:var(--color);
+    font-size: var(--font);
+
+}
+P{
+     color:var(--color);
+     font-size: var(--font);
+     
+}
+h4{
+     color:var(--color);
+     font-size: var(--font);
+}
+b{
+    color:var(--color);
+    font-size: var(--font);
+}
+@media (max-width:1000px){
+    :root{
+        --color:red;
+    }
+}
