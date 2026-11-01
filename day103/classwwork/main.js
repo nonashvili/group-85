@@ -1,0 +1,5 @@
+console.log(Math.round(10.3))
+console.log(Math.round(10.7))
+console.log(Math.round(10.5))
+console.log(Math.ceil(4.1))
+console.log(Math.sign())
